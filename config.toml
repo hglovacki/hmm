@@ -1,4 +1,29 @@
-baseURL = "http://example.org/"
+baseURL = "http://hmm.harlinglovacki.io"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ga-hugo-theme"
+title = "How Music Maps"
+theme = "stark"
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+  page = "/:title/"
+
+[[menu.left]]
+  name = "HMM"
+  url = "/"
+
+[[menu.left]]
+  name = "Harlin"
+  url = "http://hmm.harlinglovacki.io"
+
+[[menu.right]]
+  name = "Music"
+  url = "https://music.harlinglovacki.io"
+[[menu.right]]
+  name = "Dev"
+  url = "https://dev.harlinglovacki.io"
+[[menu.right]]
+  name = "GitHub"
+  url = "https://github.com/hglovacki"
+[[menu.right]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/harlin-glovacki-b63a72a9/"
